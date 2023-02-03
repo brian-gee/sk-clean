@@ -3,7 +3,9 @@ export default function Hero() {
     <main>
       <div
         className="hero min-h-screen"
-        style={{ backgroundImage: '/swimming-pool.png' }}>
+        style={{
+          backgroundImage: `url("/house-with-pool.jpg")`,
+        }}>
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
