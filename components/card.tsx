@@ -13,13 +13,13 @@ export default function Page({
 }) {
   return (
     <main>
-      <div className="p-10 card bg-base-100 shadow-xl image-full">
+      <div className="card card-compact w-96 bg-base-100 shadow-xl">
         <figure>
-          <img src={image} alt={alt} />
+          <Image src={image} alt={alt} width="500" height="500" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title justify-center text-3xl">{heading}</h2>
-          <p className="flex justify-center text-xl">{description}</p>
+          <h2 className="card-title">{heading}</h2>
+          <p>{description}</p>
         </div>
       </div>
     </main>
