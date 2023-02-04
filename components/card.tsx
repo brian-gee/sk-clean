@@ -13,22 +13,13 @@ export default function Page({
 }) {
   return (
     <main>
-      <div className="card w-96 bg-base-100 shadow-xl">
-        <figure className="px-10 pt-10">
-          <Image
-            alt={alt}
-            src={image}
-            width={1000}
-            height={1000}
-            style={{
-              maxWidth: '100%',
-              height: 'auto',
-            }}
-          />
+      <div className="p-10 card bg-base-100 shadow-xl image-full">
+        <figure>
+          <img src={image} alt={alt} />
         </figure>
-        <div className="card-body items-center text-center">
-          <h2 className="card-title">{heading}</h2>
-          <p>{description}</p>
+        <div className="card-body">
+          <h2 className="card-title justify-center text-3xl">{heading}</h2>
+          <p className="flex justify-center text-xl">{description}</p>
         </div>
       </div>
     </main>
