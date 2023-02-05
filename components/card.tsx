@@ -19,7 +19,7 @@ export default function Page({
         </figure>
         <div className="card-body">
           <h2 className="card-title">{heading}</h2>
-          <p>{description}</p>
+          <p className="text-sm">{description}</p>
         </div>
       </div>
     </main>
