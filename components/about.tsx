@@ -7,10 +7,12 @@ export default function About({}) {
         <div className="card-body">
           <h2 className="card-title">About Us</h2>
           <p className="text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-            cum. Qui architecto eius praesentium, aperiam veniam inventore nemo
-            accusantium corporis et recusandae deleniti expedita consequatur
-            porro maiores. Vero, fuga ipsa.
+            SK Cleaning is a locally-owned and operated pool cleaning company
+            that has been serving the community for many years. Our team of
+            experienced technicians is dedicated to providing the highest
+            quality pool cleaning services to our clients. From routine
+            maintenance to specialized services, we have the expertise and
+            equipment to keep your pool in top condition.
           </p>
         </div>
         <figure>
