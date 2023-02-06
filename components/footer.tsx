@@ -1,14 +1,17 @@
+import { navItems } from './nav';
 import { BsTwitter, BsYoutube } from 'react-icons/bs';
 import { FaFacebookF } from 'react-icons/fa';
 
 export default function Page({}) {
   return (
     <main className="pt-20">
-      <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
+      <footer className="footer footer-center p-10 rounded">
         <div className="grid grid-flow-col gap-4">
-          <a className="link link-hover">Home</a>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Services</a>
+          {navItems.map((item, i) => (
+            <a key={i} href={item.href}>
+              {item.name}
+            </a>
+          ))}
         </div>
         <div>
           <div className="grid grid-flow-col gap-4">

@@ -1,6 +1,6 @@
 import { HiMenuAlt1 } from 'react-icons/hi';
 
-const navItems = [
+export const navItems = [
   {
     name: 'Home',
     href: '#home',
