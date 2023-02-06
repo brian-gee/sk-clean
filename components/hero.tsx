@@ -1,10 +1,12 @@
+import bg from '../public/house-with-pool.jpg';
+
 export default function Hero() {
   return (
     <main>
       <div
         className="hero min-h-screen bg-base-200"
         style={{
-          backgroundImage: `url("/house-with-pool.jpg")`,
+          backgroundImage: `url(${bg.src})`,
         }}>
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
