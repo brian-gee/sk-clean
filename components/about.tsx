@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export default function About({}) {
   return (
-    <main className="p-4 flex justify-center">
-      <div className="card w-96 bg-base-100 shadow-xl">
+    <main id="about" className="pt-20 p-4 flex justify-center">
+      <div className="card max-w-2xl bg-base-100 shadow-xl">
         <div className="card-body">
           <h2 className="card-title">About Us</h2>
           <p className="text-sm">

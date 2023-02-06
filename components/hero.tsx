@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <main>
       <div
-        className="hero min-h-screen"
+        className="hero min-h-screen bg-base-200"
         style={{
           backgroundImage: `url("/house-with-pool.jpg")`,
         }}>
