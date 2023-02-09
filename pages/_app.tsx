@@ -6,7 +6,7 @@ import Footer from '@/components/footer';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main data-theme="business">
+    <main>
       <Header />
       <Nav />
       <Component {...pageProps} />
