@@ -11,6 +11,7 @@ export default function Hero() {
           placeholder="blur"
           quality={100}
           fill
+          loading="eager"
           sizes="100vw"
           style={{
             objectFit: 'cover',
