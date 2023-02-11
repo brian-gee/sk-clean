@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Next Fire</title>
-        <meta name="description" content="Created with love - BrianGee" />
+        <title>SK Clean</title>
+        <meta name="description" content="SK Pool Cleaning Services" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/swimming-pool.png" />
       </Head>
       <main
         id="home"
