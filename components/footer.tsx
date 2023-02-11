@@ -27,7 +27,7 @@ export default function Page({}) {
           </div>
         </div>
         <div>
-          <p>Copyright © 2023 - All right reserved</p>
+          <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
         </div>
       </footer>
     </main>

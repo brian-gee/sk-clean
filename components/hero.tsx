@@ -6,6 +6,7 @@ export default function Hero() {
     <main>
       <div className="sticky">
         <Image
+          className="object-cover opacity-40"
           alt="House with pool"
           src={bg}
           placeholder="blur"
@@ -13,9 +14,6 @@ export default function Hero() {
           fill
           loading="eager"
           sizes="100vw"
-          style={{
-            objectFit: 'cover',
-          }}
         />
         <div className="hero min-h-screen bg-base-200">
           <div className="hero-overlay bg-opacity-60"></div>
