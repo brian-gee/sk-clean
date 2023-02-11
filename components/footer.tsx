@@ -15,13 +15,13 @@ export default function Page({}) {
         </div>
         <div>
           <div className="grid grid-flow-col gap-4">
-            <a>
+            <a href="">
               <BsTwitter className="fill-current" />
             </a>
-            <a>
+            <a href="">
               <BsYoutube className="fill-current" />
             </a>
-            <a>
+            <a href="">
               <FaFacebookF className="fill-current" />
             </a>
           </div>
