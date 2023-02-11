@@ -13,6 +13,10 @@ export default function Home() {
         <title>SK Clean</title>
         <meta name="description" content="SK Pool Cleaning Services" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          http-equiv="Content-Security-Policy"
+          content="default-src 'self' https: ; object-src 'none'"
+        />
         <link rel="icon" href="/swimming-pool.png" />
       </Head>
       <main
