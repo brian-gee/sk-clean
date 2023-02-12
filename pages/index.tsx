@@ -5,6 +5,7 @@ import Hero from '@/components/hero';
 import About from '@/components/about';
 import Services from '@/components/services';
 import Contact from '@/components/contact';
+import ScrollToTopButton from '@/components/scrollToTop';
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Services />
         <About />
         <Contact />
+        <ScrollToTopButton />
         <Footer />
       </main>
     </>

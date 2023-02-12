@@ -1,12 +1,14 @@
 import Image from 'next/image';
 import bg from '../public/house-with-pool.jpg';
+import communityPool from '../public/community-pool.jpg';
+import boyGoggles from '../public/boy-smiling-with-goggles.jpg';
 
 export default function Hero() {
   return (
     <main>
       <div className="sticky">
         <Image
-          className="object-cover opacity-40"
+          className="object-cover opacity-30"
           alt="House with pool"
           src={bg}
           placeholder="blur"
